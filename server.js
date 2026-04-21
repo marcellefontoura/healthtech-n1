@@ -13,7 +13,7 @@ app.get("/", (req, res) => {
       <h1>HEALTHTECH</h1>
       <p>API desenvolvida para centralizar o cadastro de pacientes e o registro de atendimentos domiciliares.</p>
 
-      <h3>Rotas disponíveis:</h3>
+      <h3>Endpoints disponíveis:</h3>
       <ul>
         <li> /pacientes</li>
         <li> /atendimentos</li>
