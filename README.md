@@ -27,29 +27,4 @@ A solução proposta foi a criação de uma **API backend** capaz de:
 
 ---
 
-## Como instalar
-
-```bash
-npm install
-```
-
----
-
-## Como executar
-
-Modo desenvolvimento:
-
-```bash
-npm run dev
-
-
-```
-
-Servidor:
-
-```bash
-http://localhost:3000
-```
-
----
 
