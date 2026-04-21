@@ -1,0 +1,27 @@
+{
+  "name": "healthtech-n1",
+  "version": "1.0.0",
+  "main": "server.js",
+  "engines": {
+    "node": "18.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "postinstall": "npm rebuild sqlite3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "API backend para cadastro de pacientes e atendimentos domiciliares",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
